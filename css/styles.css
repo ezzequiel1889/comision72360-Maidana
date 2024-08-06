@@ -3,5 +3,34 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: wheat;
 }
 
+@media screen and (max-width:320px){
+    #cont1-foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #cont-foot{
+        width: 100%;
+        margin-left: 13px;
+    }
+
+}
+
+
+@media screen and (max-width:706px){
+    .caja{
+        transition: 1s;
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width:420px){
+    .caja{
+        transition: 1s;
+        width: 300px !important;
+    }
+}
